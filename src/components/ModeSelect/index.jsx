@@ -15,7 +15,7 @@ function ModeSelect() {
       setMode(event.target.value)
     }
     return (
-      <FormControl sx={{ m: 1, minWidth: 120 }} size="small">
+      <FormControl size="small" sx={{ minWidth: 120 }}>
         <InputLabel id="demo-select-small-label">Mode</InputLabel>
         <Select
           labelId="demo-select-small-label"
